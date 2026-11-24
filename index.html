@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ju&amp;Jum's — Pâtisserie artisanale sur commande</title>
+  <meta name="description" content="Entremets, tartes et gâteaux de fête faits main, sur commande, au rythme des saisons. Découvrez les créations de Ju&amp;Jum's et demandez votre devis.">
+  <!-- Remplacez https://www.votre-domaine.fr par votre adresse définitive (voir README) -->
+  <link rel="canonical" href="https://www.votre-domaine.fr/">
+
+  <!-- Open Graph / réseaux sociaux -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Ju&amp;Jum's">
+  <meta property="og:title" content="Ju&amp;Jum's — Pâtisserie artisanale sur commande">
+  <meta property="og:description" content="Entremets, tartes et gâteaux de fête faits main, sur commande, au rythme des saisons.">
+  <meta property="og:url" content="https://www.votre-domaine.fr/">
+  <meta property="og:image" content="https://www.votre-domaine.fr/assets/images/og/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="[ALT À COMPLÉTER] Une création de Ju&amp;Jum's">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#faf8f5">
+  <link rel="icon" href="assets/images/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Bagel+Fat+One&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- Données structurées (référencement local) — à compléter -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Ju&Jum's",
+    "description": "Pâtisserie artisanale sur commande : entremets, tartes et gâteaux de fête.",
+    "url": "https://www.votre-domaine.fr/",
+    "logo": "https://www.votre-domaine.fr/assets/images/logo/logo.png",
+    "image": "https://www.votre-domaine.fr/assets/images/og/og-image.jpg",
+    "telephone": "[À COMPLÉTER]",
+    "email": "juandjums@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[À COMPLÉTER]",
+      "postalCode": "[À COMPLÉTER]",
+      "addressLocality": "Betchat",
+      "addressRegion": "Ariège",
+      "addressCountry": "FR"
+    },
+    "priceRange": "€€",
+    "sameAs": ["https://www.instagram.com/juandjums.patisserie/"]
+  }
+  </script>
+</head>
+<body class="page-home theme-accueil">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- En-tête transparent posé sur la vidéo ; son fond apparaît dès qu'on fait défiler la page -->
+  <header class="site-header site-header--over-video" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" data-brand>
+        <!-- LOGO couleur : assets/images/logo/logo.png (si le fichier manque, le nom s'affiche en texte). -->
+        <img class="brand__logo" src="assets/images/logo/logo.png" alt="Ju&amp;Jum's — accueil" width="471" height="292">
+        <!-- LOGO clair, affiché seulement tant que l'en-tête est posé sur la vidéo -->
+        <img class="brand__logo brand__logo--light" src="assets/images/logo/logo-light.png" alt="Ju&amp;Jum's — accueil" width="471" height="292">
+        <span class="brand__wordmark">Ju&amp;Jum's</span>
+        <span class="brand__tagline">Pâtisserie artisanale</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="nav-toggle__label">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale" data-nav>
+        <ul class="site-nav__list">
+          <li><a href="index.html" aria-current="page">Accueil</a></li>
+          <li><a href="creations.html">Mes créations</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="site-nav__foot">
+          <a class="btn btn--small" href="contact.html">Demander un devis</a>
+          <p class="site-nav__info">Sur commande uniquement · Retrait à Betchat (09)</p>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ============ SECTION 1 : VIDÉO PLEINE LARGEUR ============
+         Vidéo : assets/images/accueil/video-accueil.mp4
+         (vidéo provisoire : « Los Muertos Crew » sur Pexels, licence Pexels — à remplacer
+         idéalement par une vidéo de vos propres créations, en gardant le même nom de fichier).
+         Image d'attente facultative : ajoutez poster="assets/images/accueil/video-accueil-poster.jpg"
+         sur la balise <video> si vous fournissez cette image (voir README). -->
+    <section class="video-hero" id="section-1" aria-label="Vidéo de présentation de Ju&amp;Jum's" data-video>
+      <video class="video-hero__media" autoplay muted loop playsinline preload="auto"
+             aria-hidden="true" tabindex="-1" disablepictureinpicture>
+        <source src="assets/images/accueil/video-accueil.mp4" type="video/mp4">
+      </video>
+      <!-- Logo en filigrane et accroche au centre de la vidéo
+           (le logo est décoratif : celui de l'en-tête porte déjà le nom) -->
+      <div class="video-hero__brand">
+        <img class="video-hero__logo" src="assets/images/logo/logo.png" alt="" aria-hidden="true" width="471" height="292">
+        <p class="video-hero__tagline">Pâtisseries artisanales</p>
+      </div>
+      <button class="video-hero__toggle" type="button" data-video-toggle hidden>
+        <span class="video-hero__icon" aria-hidden="true"></span>
+        <span class="visually-hidden" data-video-label>Mettre la vidéo en pause</span>
+      </button>
+    </section>
+
+    <!-- ============ SECTION 2 : GALERIE DE GÂTEAUX (mosaïque) ============
+         Sur ordinateur : mosaïque asymétrique, le titre en haut à gauche. Au survol d'un gâteau,
+         la photo remonte et découvre son nom et un bouton « Commander » (vers la page Contact).
+         Sur mobile et tablette : grille de cartes, nom et bouton toujours visibles sous la photo.
+         Photos du compte @juandjums.patisserie, recadrées en portrait 4:5 sur le gâteau :
+         assets/images/accueil/galerie-1.jpg à galerie-6.jpg (800 × 1000 px).
+         NOMS : les catégories (gallery-card__tag) et les noms (gallery-card__name) décrivent les
+         photos ; remplacez-les par les vrais noms de vos créations. -->
+    <section class="section cake-gallery" id="section-2" aria-labelledby="cake-gallery-title">
+      <div class="container">
+        <div class="cake-gallery__grid">
+          <header class="cake-gallery__intro reveal">
+            <h2 class="cake-gallery__title" id="cake-gallery-title">L'atelier de <em>Ju&amp;Jum's</em></h2>
+            <p class="cake-gallery__lead">Gâteaux de fête, entremets et douceurs du quotidien, faits main à Betchat.</p>
+          </header>
+
+          <figure class="gallery-card reveal">
+            <div class="media media--portrait gallery-card__photo" data-tone="griotte">
+              <img src="assets/images/accueil/galerie-3.jpg" alt="Gâteau glacé rouge, couronné de rosaces de crème et de fleurs" width="800" height="1000" loading="lazy">
+            </div>
+            <figcaption class="gallery-card__info">
+              <span class="gallery-card__text"><span class="gallery-card__tag">Entremets</span><span class="gallery-card__name">Fruits rouges &amp; fleurs</span></span>
+              <a class="gallery-card__btn" href="contact.html"><span class="gallery-card__btn-label">Commander</span><span class="visually-hidden"> : fruits rouges et fleurs</span><svg class="gallery-card__btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9.5M8.75 4.25 12.5 8l-3.75 3.75"/></svg></a>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card reveal" style="--d:1">
+            <div class="media media--portrait gallery-card__photo" data-tone="framboise">
+              <img src="assets/images/accueil/galerie-2.jpg" alt="Gâteau aux fruits frais et rosaces de crème, noué d'un ruban rouge" width="800" height="1000" loading="lazy">
+            </div>
+            <figcaption class="gallery-card__info">
+              <span class="gallery-card__text"><span class="gallery-card__tag">Gâteau de fête</span><span class="gallery-card__name">Couronne de fruits frais</span></span>
+              <a class="gallery-card__btn" href="contact.html"><span class="gallery-card__btn-label">Commander</span><span class="visually-hidden"> : couronne de fruits frais</span><svg class="gallery-card__btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9.5M8.75 4.25 12.5 8l-3.75 3.75"/></svg></a>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card reveal" style="--d:2">
+            <div class="media media--portrait gallery-card__photo" data-tone="pistache">
+              <img src="assets/images/accueil/galerie-1.jpg" alt="Gâteau aux figues, crème striée de violet, surmonté d'une figue fraîche" width="800" height="1000" loading="lazy">
+            </div>
+            <figcaption class="gallery-card__info">
+              <span class="gallery-card__text"><span class="gallery-card__tag">Gâteau de fête</span><span class="gallery-card__name">Gâteau à la figue</span></span>
+              <a class="gallery-card__btn" href="contact.html"><span class="gallery-card__btn-label">Commander</span><span class="visually-hidden"> : gâteau à la figue</span><svg class="gallery-card__btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9.5M8.75 4.25 12.5 8l-3.75 3.75"/></svg></a>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card reveal" style="--d:1">
+            <div class="media media--portrait gallery-card__photo" data-tone="caramel">
+              <img src="assets/images/accueil/galerie-4.jpg" alt="Gâteau en forme de fleur aux pétales de crème" width="800" height="1000" loading="lazy">
+            </div>
+            <figcaption class="gallery-card__info">
+              <span class="gallery-card__text"><span class="gallery-card__tag">À partager</span><span class="gallery-card__name">Fleur de crème</span></span>
+              <a class="gallery-card__btn" href="contact.html"><span class="gallery-card__btn-label">Commander</span><span class="visually-hidden"> : fleur de crème</span><svg class="gallery-card__btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9.5M8.75 4.25 12.5 8l-3.75 3.75"/></svg></a>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card reveal" style="--d:2">
+            <div class="media media--portrait gallery-card__photo" data-tone="caramel">
+              <img src="assets/images/accueil/galerie-6.jpg" alt="Gâteau d'automne décoré de renards, de feuilles et de glands en sucre" width="800" height="1000" loading="lazy">
+            </div>
+            <figcaption class="gallery-card__info">
+              <span class="gallery-card__text"><span class="gallery-card__tag">Anniversaire</span><span class="gallery-card__name">Le renard d'automne</span></span>
+              <a class="gallery-card__btn" href="contact.html"><span class="gallery-card__btn-label">Commander</span><span class="visually-hidden"> : le renard d'automne</span><svg class="gallery-card__btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9.5M8.75 4.25 12.5 8l-3.75 3.75"/></svg></a>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card reveal" style="--d:3">
+            <div class="media media--portrait gallery-card__photo" data-tone="vanille">
+              <img src="assets/images/accueil/galerie-5.jpg" alt="Gâteau en forme de cœur « Just Married », décoré de rosaces de crème" width="800" height="1000" loading="lazy">
+            </div>
+            <figcaption class="gallery-card__info">
+              <span class="gallery-card__text"><span class="gallery-card__tag">Mariage</span><span class="gallery-card__name">Cœur Just Married</span></span>
+              <a class="gallery-card__btn" href="contact.html"><span class="gallery-card__btn-label">Commander</span><span class="visually-hidden"> : cœur Just Married</span><svg class="gallery-card__btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9.5M8.75 4.25 12.5 8l-3.75 3.75"/></svg></a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 3 : DEUX CRÉATIONS, DE L'EXTÉRIEUR À LA COUPE ============
+         Deux bandes pleine largeur qui alternent : photo à gauche sur fond crème #fbf3ea, puis photo à
+         droite sur fond clair #faf8f5. Chaque photo est un comparateur « entier / à la coupe » : on fait
+         glisser la poignée (souris, doigt ou flèches du clavier) pour découvrir l'intérieur.
+         PHOTOS : carrées (1200 × 1200 px), avec exactement le même cadrage pour les deux vues :
+           assets/images/accueil/coupe-1-entier.jpg  et  assets/images/accueil/coupe-1-tranche.jpg
+           assets/images/accueil/coupe-2-entier.jpg  et  assets/images/accueil/coupe-2-tranche.jpg
+         Pour une simple photo sans comparateur : gardez la 1re <figure> et supprimez la 2e,
+         le curseur (input) et la poignée.
+         TEXTES : titres, phrases, liens et descriptions des photos (alt) sont à adapter. -->
+    <section class="showcase" id="section-3" aria-label="Deux créations, de l'extérieur à la coupe">
+      <svg width="0" height="0" class="visually-hidden" aria-hidden="true" focusable="false">
+        <symbol id="icon-grip" viewBox="0 0 16 16"><path d="M5 4v8M8 4v8M11 4v8"/></symbol>
+      </svg>
+
+      <!-- Photos : carrousel Instagram https://www.instagram.com/p/DfNUvoSkf4F/ (photo 1 entière, photo 2 à la coupe) -->
+      <article class="showcase__band showcase__band--creme" aria-labelledby="showcase-1-title">
+        <div class="container showcase__inner">
+          <div class="showcase__visual reveal">
+            <div class="compare" data-compare>
+              <figure class="media compare__media" data-tone="caramel">
+                <img src="assets/images/accueil/coupe-1-entier.jpg" alt="Entremets caramel, banane et spéculoos, entier : glaçage caramel strié, chantilly mascarpone et éclats de spéculoos" width="1200" height="1200" loading="lazy">
+              </figure>
+              <figure class="media compare__media compare__media--after" data-tone="vanille">
+                <img src="assets/images/accueil/coupe-1-tranche.jpg" alt="Le même entremets à la coupe : mousse au caramel, insert banane, croustillant et biscuit spéculoos" width="1200" height="1200" loading="lazy">
+              </figure>
+              <input class="compare__range" type="range" min="0" max="100" step="1" value="50" aria-label="Glisser pour comparer l'entremets caramel, banane et spéculoos entier et à la coupe" data-compare-range>
+              <span class="compare__handle" aria-hidden="true"><span class="compare__knob"><svg class="compare__grip" focusable="false"><use href="#icon-grip"/></svg></span></span>
+            </div>
+          </div>
+          <div class="showcase__text reveal" style="--d:1">
+            <h2 class="showcase__title" id="showcase-1-title">Caramel, banane <em>et spéculoos</em></h2>
+            <p class="showcase__intro">Un joli mariage de douceur, de caramel et de spéculoos&nbsp;: une petite bombe de gourmandise.</p>
+            <ul class="showcase__list">
+              <li>Mousse légère au caramel</li>
+              <li>Insert fondant à la banane</li>
+              <li>Croustillant spéculoos</li>
+              <li>Biscuit spéculoos</li>
+              <li>Chantilly mascarpone à la vanille et éclats de spéculoos</li>
+            </ul>
+            <a class="btn" href="creations.html?categorie=entremets">Je découvre</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Photos : carrousel Instagram https://www.instagram.com/p/DfUzT_uiOqR/ (photo 1 entière, photo 2 à la coupe) -->
+      <article class="showcase__band showcase__band--clair" aria-labelledby="showcase-2-title">
+        <div class="container showcase__inner">
+          <div class="showcase__visual reveal">
+            <div class="compare" data-compare>
+              <figure class="media compare__media" data-tone="vanille">
+                <img src="assets/images/accueil/coupe-2-entier.jpg" alt="Entremets poire, caramel et noix de pécan, entier, habillé de mousse cannelée et décoré de noix de pécan et d'une pensée violette" width="1200" height="1200" loading="lazy">
+              </figure>
+              <figure class="media compare__media compare__media--after" data-tone="caramel">
+                <img src="assets/images/accueil/coupe-2-tranche.jpg" alt="Le même entremets à la coupe : biscuit pécan, croustillant feuillantine praliné, insert caramel et mousse légère à la poire" width="1200" height="1200" loading="lazy">
+              </figure>
+              <input class="compare__range" type="range" min="0" max="100" step="1" value="50" aria-label="Glisser pour comparer l'entremets poire, caramel et noix de pécan entier et à la coupe" data-compare-range>
+              <span class="compare__handle" aria-hidden="true"><span class="compare__knob"><svg class="compare__grip" focusable="false"><use href="#icon-grip"/></svg></span></span>
+            </div>
+          </div>
+          <div class="showcase__text reveal" style="--d:1">
+            <h2 class="showcase__title" id="showcase-2-title">Poire, caramel <em>et noix de pécan</em></h2>
+            <p class="showcase__intro">Un mariage réconfortant entre la douceur de la poire, l'intensité du caramel et la gourmandise de la noix de pécan.</p>
+            <ul class="showcase__list">
+              <li>Biscuit pécan</li>
+              <li>Croustillant feuillantine praliné pécan</li>
+              <li>Insert caramel</li>
+              <li>Mousse légère à la poire</li>
+              <li>Praliné pécan gourmand</li>
+            </ul>
+            <a class="btn" href="creations.html?categorie=entremets">Je découvre</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ SECTION 4 : BANNIÈRE PHOTO PLEINE LARGEUR ============
+         Photo : assets/images/accueil/banniere.jpg — format 12:5 (idéalement 2400 × 1000 px),
+         affichée en 18:5 sur ordinateur et 9:4 sur mobile. Gardez le sujet au centre (voir README).
+         Photo provisoire : Paris-Brest de Christian Agbede, via Unsplash (licence Unsplash),
+         recadrée en 1225 × 510 px sur la pâte à choux et la crème. -->
+    <section class="banner" id="section-4">
+      <figure class="media media--banner" data-tone="caramel">
+        <img src="assets/images/accueil/banniere.jpg" alt="Gros plan sur un Paris-Brest : couronne de pâte à choux dorée saupoudrée de sucre glace et crème pralinée dressée en vagues" width="1225" height="510" loading="lazy">
+      </figure>
+    </section>
+
+    <!-- ============ SECTION 5 : QUI SUIS-JE ? ============
+         Texte à gauche, portrait à droite (assets/images/accueil/portrait.jpg, format 4:5).
+         TEXTES : adaptez le récit à votre parcours. -->
+    <section class="section about-teaser" id="section-5" aria-labelledby="about-teaser-title">
+      <div class="container about-teaser__grid">
+
+        <div class="about-teaser__text reveal">
+          <h2 class="section-title" id="about-teaser-title">Qui <em>suis-je&nbsp;?</em></h2>
+          <p class="lead">Je m'appelle Laurie. Après un CAP Pâtissier et plusieurs années dans des maisons exigeantes, j'ai ouvert Ju&amp;Jum's pour faire les choses à ma façon&nbsp;: des gâteaux faits main, sur commande, avec des produits de saison.</p>
+          <p class="about-teaser__body">Chaque création commence par une conversation&nbsp;: votre occasion, vos goûts, vos envies. Le reste, c'est mon métier, et ma plus grande joie.</p>
+
+          <p class="about-teaser__signature">
+            <span class="about-teaser__role">Laurie</span>
+          </p>
+
+          <div class="about-teaser__actions">
+            <a class="btn" href="a-propos.html">En savoir plus</a>
+          </div>
+        </div>
+
+        <div class="about-teaser__visual reveal" style="--d:2">
+          <!-- IMAGE : assets/images/accueil/portrait.jpg — issue d'Instagram (512 × 640) ; idéalement à remplacer par l'original 1000 × 1250 px -->
+          <figure class="media media--portrait about-teaser__photo" data-tone="vanille">
+            <img src="assets/images/accueil/portrait.jpg" alt="Portrait de la pâtissière de Ju&amp;Jum's, souriante, en veste de cheffe dans sa cuisine" width="512" height="640" loading="lazy">
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ SECTION 6 : AVIS CLIENTS ============
+         Trois vignettes : photo ronde, prénom, création commandée, avis et note en macarons.
+         Au survol, la vignette grossit et passe au rose ; celle du milieu est mise en avant
+         par défaut. Sur mobile et tablette, les vignettes se font glisser.
+         PHOTOS RONDES : assets/images/avis/avis-1.jpg à avis-3.jpg (carrées, 240 × 240 px) :
+         photo du gâteau commandé ou du client (avec son accord). Photos provisoires en place.
+         AVIS : les trois textes ci-dessous sont des EXEMPLES de mise en page. Remplacez-les par
+         de vrais avis de clients, publiés avec leur accord (prénom + initiale du nom).
+         Publier des avis inventés est interdit (pratique commerciale trompeuse) ; la petite
+         mention sous les vignettes indique comment les avis sont recueillis : gardez-la exacte.
+         NOTE : 5 macarons = 5/5. Pour une autre note, retirez des <svg class="review__macaron">
+         et mettez à jour aria-label="Note : 5 sur 5". -->
+    <section class="section reviews" id="section-6" aria-labelledby="reviews-title">
+      <div class="container">
+        <h2 class="section-title reviews__title reveal" id="reviews-title">Ils y ont <em>goûté.</em></h2>
+
+        <svg width="0" height="0" class="visually-hidden" aria-hidden="true" focusable="false">
+          <symbol id="icon-macaron" viewBox="0 0 32 30">
+            <path d="M4 21.2h24c0 3.9-5.2 6.4-12 6.4S4 25.1 4 21.2z" fill="#E9C350"/>
+            <rect x="4.4" y="19.4" width="23.2" height="2.2" rx="1.1" fill="#F7DE85"/>
+            <rect x="5.2" y="16.2" width="21.6" height="3.6" rx="1.8" fill="#FBEDB3"/>
+            <rect x="4.4" y="14.4" width="23.2" height="2.2" rx="1.1" fill="#F7DE85"/>
+            <path d="M4 14.8C4 10.6 9.4 8.4 16 8.4s12 2.2 12 6.4z" fill="#F0CF5C"/>
+            <path d="M8.2 11.6c1.8-1.3 4.6-1.9 7.8-1.9" fill="none" stroke="#F8E39A" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M10.6 9.3c0-2.5 2.4-4.1 5.4-4.1s5.4 1.6 5.4 4.1z" fill="#FFFDF8" stroke="#E7DCC6" stroke-width=".5"/>
+            <path d="M15.6 5.6c1.4-2.8 4.3-4.4 7-4.5-.7 2.6-3.6 4.5-7 4.5z" fill="#77A443"/>
+            <path d="M18.4 6.6c1.6-.3 3.5.5 4.4 1.9-1.8.3-3.6-.5-4.4-1.9z" fill="#B0356B"/>
+          </symbol>
+        </svg>
+
+        <ul class="reviews__track" data-reviews-track aria-label="Avis de clients">
+          <li class="review reveal" style="--d:1">
+            <article class="review__card">
+              <div class="media review__photo" data-tone="caramel">
+                <img src="assets/images/avis/avis-1.jpg" alt="" width="240" height="240" loading="lazy">
+              </div>
+              <header class="review__head">
+                <p class="review__name"><span class="todo">[PRÉNOM N.]</span></p>
+                <p class="review__order">Layer cake · Anniversaire</p>
+              </header>
+              <blockquote class="review__quote">
+                <p>Un layer cake pour les six ans de notre fille&nbsp;: aussi beau que bon, et pas trop sucré, ce qui a mis petits et grands d'accord. Merci pour l'écoute et les conseils jusqu'au jour&nbsp;J.</p>
+              </blockquote>
+              <footer class="review__foot">
+                <span class="review__rating" role="img" aria-label="Note : 5 sur 5">
+                  <svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg>
+                </span>
+                <span class="review__badge" aria-hidden="true">“</span>
+              </footer>
+            </article>
+          </li>
+
+          <li class="review review--featured reveal" style="--d:2">
+            <article class="review__card">
+              <div class="media review__photo" data-tone="griotte">
+                <img src="assets/images/avis/avis-2.jpg" alt="" width="240" height="240" loading="lazy">
+              </div>
+              <header class="review__head">
+                <p class="review__name"><span class="todo">[PRÉNOM N.]</span></p>
+                <p class="review__order">Entremets · Mariage</p>
+              </header>
+              <blockquote class="review__quote">
+                <p>Nous voulions un dessert de mariage qui nous ressemble. Résultat&nbsp;: un entremets framboise-pistache d'une grande finesse et une organisation sans fausse note. Nos invités en parlent encore.</p>
+              </blockquote>
+              <footer class="review__foot">
+                <span class="review__rating" role="img" aria-label="Note : 5 sur 5">
+                  <svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg>
+                </span>
+                <span class="review__badge" aria-hidden="true">“</span>
+              </footer>
+            </article>
+          </li>
+
+          <li class="review reveal" style="--d:3">
+            <article class="review__card">
+              <div class="media review__photo" data-tone="caramel">
+                <img src="assets/images/avis/avis-3.jpg" alt="" width="240" height="240" loading="lazy">
+              </div>
+              <header class="review__head">
+                <p class="review__name"><span class="todo">[PRÉNOM N.]</span></p>
+                <p class="review__order">Paris-Brest · Repas de famille</p>
+              </header>
+              <blockquote class="review__quote">
+                <p>Le Paris-Brest le plus généreux que j'aie goûté, avec un vrai goût de praliné. Commande simple, retrait à l'heure à Betchat&nbsp;: on reviendra pour les fêtes, c'est certain.</p>
+              </blockquote>
+              <footer class="review__foot">
+                <span class="review__rating" role="img" aria-label="Note : 5 sur 5">
+                  <svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg><svg class="review__macaron" aria-hidden="true"><use href="#icon-macaron"/></svg>
+                </span>
+                <span class="review__badge" aria-hidden="true">“</span>
+              </footer>
+            </article>
+          </li>
+        </ul>
+
+        <!-- Repères du carrousel (mobile et tablette uniquement, décoratifs) -->
+        <div class="reviews__dots" data-reviews-dots aria-hidden="true"><span></span><span></span><span></span></div>
+
+        <p class="reviews__note reveal">Avis transmis par des clients après leur commande, publiés avec leur accord.</p>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 7 : INSTAGRAM ============
+         8 photos pleine largeur (4 × 2 sur ordinateur, 2 × 3 sur mobile) et un encart centré.
+         Photos de pâtisseries du compte @juandjums.patisserie, recadrées en carré (800 × 800 px)
+         sur la pâtisserie : assets/images/instagram/insta-1.jpg à insta-8.jpg.
+         Chaque photo renvoie vers sa publication Instagram (nouvel onglet). -->
+    <section class="insta" id="section-7" aria-labelledby="insta-title">
+      <div class="insta__grid">
+        <a class="insta__tile" href="https://www.instagram.com/p/DfwPec4hoKQ/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="caramel">
+            <img src="assets/images/instagram/insta-1.jpg" alt="Assortiment de verrines, tartelettes meringuées et petits gâteaux au chocolat" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/DfaecFliFw5/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="griotte">
+            <img src="assets/images/instagram/insta-2.jpg" alt="Entremets au glaçage rouge brillant, couronné de rosaces de crème et de framboises" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/DfXUtaLiDy9/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="vanille">
+            <img src="assets/images/instagram/insta-3.jpg" alt="Gâteau à la crème entamé, une part découpée au premier plan, décoré de cœurs rouges et de noix de pécan" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/DfUzT_uiOqR/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="vanille">
+            <img src="assets/images/instagram/insta-4.jpg" alt="Gâteau blanc aux plis de crème, décoré de noix de pécan et d'une fleur violette" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/DfPvxMKoV5k/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="chocolat">
+            <img src="assets/images/instagram/insta-5.jpg" alt="Éclairs au chocolat et au café coupés, laissant voir leur crème" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/DfNUvoSkf4F/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="caramel">
+            <img src="assets/images/instagram/insta-6.jpg" alt="Gâteau au caramel aux stries régulières, surmonté d'un dôme de crème et d'éclats de noisette" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/De_FuaViET8/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="framboise">
+            <img src="assets/images/instagram/insta-7.jpg" alt="Gâteau aux framboises, rosaces de crème et framboises fraîches" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+        <a class="insta__tile" href="https://www.instagram.com/p/De6M0Csjct2/" target="_blank" rel="noopener">
+          <figure class="media media--square" data-tone="pistache">
+            <img src="assets/images/instagram/insta-8.jpg" alt="Deux pièces montées de macarons roses, pistache et vanille" width="800" height="800" loading="lazy">
+          </figure>
+          <span class="visually-hidden"> — voir la publication sur Instagram (nouvel onglet)</span>
+        </a>
+      </div>
+
+      <div class="insta__overlay">
+        <div class="insta__card reveal">
+          <h2 class="insta__title" id="insta-title">Les coulisses de l'atelier, <em>en direct du four.</em></h2>
+          <a class="btn" href="https://www.instagram.com/juandjums.patisserie/" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+              <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/>
+            </svg>
+            @juandjums.patisserie<span class="visually-hidden"> sur Instagram (nouvel onglet)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="brand brand--footer" href="index.html" data-brand>
+            <!-- LOGO bordeaux (pied de page rose) : assets/images/logo/logo-footer.png -->
+            <img class="brand__logo" src="assets/images/logo/logo-footer.png" alt="Ju&amp;Jum's — accueil" width="471" height="292">
+            <span class="brand__wordmark">Ju&amp;Jum's</span>
+            <span class="brand__tagline">Pâtisserie artisanale</span>
+          </a>
+          <p class="site-footer__pitch">Entremets, tartes et gâteaux de fête faits main, sur commande, au rythme des saisons.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Contact</h2>
+          <address>
+            Betchat (09)<br>
+            <a href="tel:+33000000000"><span class="todo">[TÉLÉPHONE]</span></a><br>
+            <a href="mailto:juandjums@gmail.com">juandjums@gmail.com</a>
+          </address>
+        </div>
+        <div>
+          <h2 class="footer-title">Retraits</h2>
+          <p>Sur rendez-vous<br>Du mercredi au samedi<br><span class="todo">[HORAIRES]</span></p>
+          <!-- Réseaux sociaux : icônes Instagram et Facebook -->
+          <ul class="social">
+            <li><a class="social__link" href="https://www.instagram.com/juandjums.patisserie/" target="_blank" rel="noopener" aria-label="Instagram de Ju&amp;Jum's (nouvel onglet)"><svg class="social__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg></a></li>
+            <!-- FACEBOOK : remplacez # par l'adresse de la page Facebook -->
+            <li><a class="social__link" href="#" aria-label="Facebook de Ju&amp;Jum's"><svg class="social__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.1" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12.9 21v-6.6h2.3l.35-2.7H12.9v-1.7c0-.8.22-1.3 1.35-1.3h1.4V6.3c-.25-.03-1.1-.1-2.05-.1-2.03 0-3.4 1.23-3.4 3.5v2h-2.3v2.7h2.3V21z" fill="currentColor"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© Ju&amp;Jum's</p>
+        <ul class="legal-links">
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+          <li><a href="cgv.html">CGV</a></li>
+          <li hidden data-cookie-manage><button type="button" class="link-button">Gérer les cookies</button></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

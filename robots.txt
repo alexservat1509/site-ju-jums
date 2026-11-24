@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Remplacez votre-domaine.fr par votre adresse définitive
+Sitemap: https://www.votre-domaine.fr/sitemap.xml

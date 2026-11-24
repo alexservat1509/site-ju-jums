@@ -1,0 +1,26 @@
+# Secrets et réglages locaux : à ne jamais publier
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*credentials*
+*secret*
+.claude/settings.local.json
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp

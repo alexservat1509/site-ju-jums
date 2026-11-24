@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mes créations — Entremets, tartes &amp; gâteaux de fête | Ju&amp;Jum's</title>
+  <meta name="description" content="Entremets, tartes, grands classiques revisités, gâteaux de fête et petites douceurs : parcourez les créations de Ju&amp;Jum's, toutes réalisées à la commande.">
+  <link rel="canonical" href="https://www.votre-domaine.fr/creations.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Ju&amp;Jum's">
+  <meta property="og:title" content="Mes créations | Ju&amp;Jum's">
+  <meta property="og:description" content="Entremets, tartes, classiques revisités, gâteaux de fête et petites douceurs, réalisés à la commande.">
+  <meta property="og:url" content="https://www.votre-domaine.fr/creations.html">
+  <meta property="og:image" content="https://www.votre-domaine.fr/assets/images/og/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="[ALT À COMPLÉTER] Une création de Ju&amp;Jum's">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#faf8f5">
+  <link rel="icon" href="assets/images/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Bagel+Fat+One&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body class="theme-accueil page-creations">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" data-brand>
+        <!-- LOGO couleur : assets/images/logo/logo.png (si le fichier manque, le nom s'affiche en texte). -->
+        <img class="brand__logo" src="assets/images/logo/logo.png" alt="Ju&amp;Jum's — accueil" width="471" height="292">
+        <span class="brand__wordmark">Ju&amp;Jum's</span>
+        <span class="brand__tagline">Pâtisserie artisanale</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="nav-toggle__label">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale" data-nav>
+        <ul class="site-nav__list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="creations.html" aria-current="page">Mes créations</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="site-nav__foot">
+          <a class="btn btn--small" href="contact.html">Demander un devis</a>
+          <p class="site-nav__info">Sur commande uniquement · Retrait à Betchat (09)</p>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container page-hero__inner">
+        <h1 id="page-title">Mes <em>créations</em></h1>
+        <p class="lead page-hero__lead">Chaque pièce est réalisée à la commande, dans la taille et pour la date qui vous conviennent. Les photos montrent des réalisations passées&nbsp;: les décors évoluent au fil des saisons et de vos envies.</p>
+      </div>
+    </section>
+
+    <div class="filters-bar">
+      <div class="container filters-bar__inner">
+        <div class="filters" role="group" aria-label="Filtrer les créations par catégorie" data-filters>
+          <button type="button" class="chip" data-filter="all" aria-pressed="true">Tout <span class="chip__count" aria-hidden="true"></span></button>
+          <button type="button" class="chip" data-filter="entremets" aria-pressed="false">Entremets <span class="chip__count" aria-hidden="true"></span></button>
+          <button type="button" class="chip" data-filter="fete" aria-pressed="false">Gâteaux de fête <span class="chip__count" aria-hidden="true"></span></button>
+          <button type="button" class="chip" data-filter="mariage" aria-pressed="false">Mariage <span class="chip__count" aria-hidden="true"></span></button>
+          <button type="button" class="chip" data-filter="douceurs" aria-pressed="false">Douceurs <span class="chip__count" aria-hidden="true"></span></button>
+        </div>
+        <p class="filters__status" aria-live="polite" data-filter-status>14 créations affichées</p>
+      </div>
+    </div>
+
+    <section class="section section--tight" aria-label="Catalogue des créations">
+      <div class="container">
+        <!-- CRÉATIONS : les mêmes photos et descriptions que la page d'accueil (galerie,
+             gâteaux « à la coupe » et grille Instagram), chaque gâteau une seule fois.
+             Les noms des photos Instagram sont proposés d'après la photo : adaptez-les.
+             data-category sert aux filtres : entremets, fete, mariage, douceurs. -->
+        <div class="creations-grid">
+
+          <article class="creation reveal" id="caramel-banane-speculoos" data-category="entremets">
+            <figure class="media media--portrait" data-tone="caramel">
+              <img src="assets/images/accueil/coupe-1-entier.jpg" alt="Entremets caramel, banane et spéculoos, entier : glaçage caramel strié, chantilly mascarpone et éclats de spéculoos" width="1200" height="1200" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Entremets</span></p>
+            <h2 class="creation__title">Caramel, banane <em>et spéculoos</em></h2>
+            <p class="creation__desc">Un joli mariage de douceur, de caramel et de spéculoos&nbsp;: une petite bombe de gourmandise.</p>
+            <div class="creation__compo">
+              <span class="creation__compo-label">Composition</span>
+              <ul class="creation__layers">
+                <li>Mousse légère au caramel</li>
+                <li>Insert fondant à la banane</li>
+                <li>Croustillant spéculoos</li>
+                <li>Biscuit spéculoos</li>
+                <li>Chantilly mascarpone à la vanille et éclats de spéculoos</li>
+              </ul>
+            </div>
+            <a class="link-arrow" href="contact.html?creation=Caramel%2C%20banane%20et%20sp%C3%A9culoos">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="poire-caramel-pecan" data-category="entremets" style="--d:1">
+            <figure class="media media--portrait" data-tone="vanille">
+              <img src="assets/images/accueil/coupe-2-entier.jpg" alt="Entremets poire, caramel et noix de pécan, entier, habillé de mousse cannelée et décoré de noix de pécan et d'une pensée violette" width="1200" height="1200" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Entremets</span></p>
+            <h2 class="creation__title">Poire, caramel <em>et noix de pécan</em></h2>
+            <p class="creation__desc">Un mariage réconfortant entre la douceur de la poire, l'intensité du caramel et la gourmandise de la noix de pécan.</p>
+            <div class="creation__compo">
+              <span class="creation__compo-label">Composition</span>
+              <ul class="creation__layers">
+                <li>Biscuit pécan</li>
+                <li>Croustillant feuillantine praliné pécan</li>
+                <li>Insert caramel</li>
+                <li>Mousse légère à la poire</li>
+                <li>Praliné pécan gourmand</li>
+              </ul>
+            </div>
+            <a class="link-arrow" href="contact.html?creation=Poire%2C%20caramel%20et%20noix%20de%20p%C3%A9can">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="fruits-rouges-fleurs" data-category="entremets" style="--d:2">
+            <figure class="media media--portrait" data-tone="griotte">
+              <img src="assets/images/accueil/galerie-3.jpg" alt="Gâteau glacé rouge, couronné de rosaces de crème et de fleurs" width="800" height="1000" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Entremets</span></p>
+            <h2 class="creation__title">Fruits rouges &amp; fleurs</h2>
+            <p class="creation__desc">Un gâteau glacé rouge, couronné de rosaces de crème et de fleurs.</p>
+            <a class="link-arrow" href="contact.html?creation=Fruits%20rouges%20%26%20fleurs">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="rouge-framboise" data-category="entremets">
+            <figure class="media media--portrait" data-tone="framboise">
+              <img src="assets/images/instagram/insta-2.jpg" alt="Entremets au glaçage rouge brillant, couronné de rosaces de crème et de framboises" width="800" height="800" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Entremets</span></p>
+            <h2 class="creation__title">Rouge framboise</h2>
+            <p class="creation__desc">Un entremets au glaçage rouge brillant, couronné de rosaces de crème et de framboises.</p>
+            <a class="link-arrow" href="contact.html?creation=Rouge%20framboise">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="couronne-fruits-frais" data-category="fete" style="--d:1">
+            <figure class="media media--portrait" data-tone="framboise">
+              <img src="assets/images/accueil/galerie-2.jpg" alt="Gâteau aux fruits frais et rosaces de crème, noué d'un ruban rouge" width="800" height="1000" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Gâteau de fête</span></p>
+            <h2 class="creation__title">Couronne de fruits frais</h2>
+            <p class="creation__desc">Un gâteau aux fruits frais et rosaces de crème, noué d'un ruban rouge.</p>
+            <a class="link-arrow" href="contact.html?creation=Couronne%20de%20fruits%20frais">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="gateau-figue" data-category="fete" style="--d:2">
+            <figure class="media media--portrait" data-tone="pistache">
+              <img src="assets/images/accueil/galerie-1.jpg" alt="Gâteau aux figues, crème striée de violet, surmonté d'une figue fraîche" width="800" height="1000" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Gâteau de fête</span></p>
+            <h2 class="creation__title">Gâteau à la figue</h2>
+            <p class="creation__desc">Un gâteau aux figues, à la crème striée de violet, surmonté d'une figue fraîche.</p>
+            <a class="link-arrow" href="contact.html?creation=G%C3%A2teau%20%C3%A0%20la%20figue">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="gateau-framboises" data-category="fete">
+            <figure class="media media--portrait" data-tone="framboise">
+              <img src="assets/images/instagram/insta-7.jpg" alt="Gâteau aux framboises, rosaces de crème et framboises fraîches" width="800" height="800" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Gâteau de fête</span></p>
+            <h2 class="creation__title">Gâteau aux framboises</h2>
+            <p class="creation__desc">Des rosaces de crème et des framboises fraîches, pour un gâteau aussi frais que gourmand.</p>
+            <a class="link-arrow" href="contact.html?creation=G%C3%A2teau%20aux%20framboises">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="coeurs-pecan" data-category="fete" style="--d:1">
+            <figure class="media media--portrait" data-tone="vanille">
+              <img src="assets/images/instagram/insta-3.jpg" alt="Gâteau à la crème entamé, une part découpée au premier plan, décoré de cœurs rouges et de noix de pécan" width="800" height="800" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Gâteau de fête</span></p>
+            <h2 class="creation__title">Cœurs &amp; pécan</h2>
+            <p class="creation__desc">Un gâteau à la crème décoré de cœurs rouges et de noix de pécan.</p>
+            <a class="link-arrow" href="contact.html?creation=C%C5%93urs%20%26%20p%C3%A9can">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="renard-automne" data-category="fete" style="--d:2">
+            <figure class="media media--portrait" data-tone="caramel">
+              <img src="assets/images/accueil/galerie-6.jpg" alt="Gâteau d'automne décoré de renards, de feuilles et de glands en sucre" width="800" height="1000" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Anniversaire</span></p>
+            <h2 class="creation__title">Le renard d'automne</h2>
+            <p class="creation__desc">Un gâteau d'automne décoré de renards, de feuilles et de glands en sucre.</p>
+            <a class="link-arrow" href="contact.html?creation=Le%20renard%20d'automne">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="coeur-just-married" data-category="mariage">
+            <figure class="media media--portrait" data-tone="vanille">
+              <img src="assets/images/accueil/galerie-5.jpg" alt="Gâteau en forme de cœur « Just Married », décoré de rosaces de crème" width="800" height="1000" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Mariage</span></p>
+            <h2 class="creation__title">Cœur Just Married</h2>
+            <p class="creation__desc">Un gâteau en forme de cœur «&nbsp;Just Married&nbsp;», décoré de rosaces de crème.</p>
+            <a class="link-arrow" href="contact.html?creation=C%C5%93ur%20Just%20Married">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="fleur-de-creme" data-category="douceurs" style="--d:1">
+            <figure class="media media--portrait" data-tone="caramel">
+              <img src="assets/images/accueil/galerie-4.jpg" alt="Gâteau en forme de fleur aux pétales de crème" width="800" height="1000" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>À partager</span></p>
+            <h2 class="creation__title">Fleur de crème</h2>
+            <p class="creation__desc">Un gâteau en forme de fleur aux pétales de crème.</p>
+            <a class="link-arrow" href="contact.html?creation=Fleur%20de%20cr%C3%A8me">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="eclairs-chocolat-cafe" data-category="douceurs" style="--d:2">
+            <figure class="media media--portrait" data-tone="chocolat">
+              <img src="assets/images/instagram/insta-5.jpg" alt="Éclairs au chocolat et au café coupés, laissant voir leur crème" width="800" height="800" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Douceurs</span></p>
+            <h2 class="creation__title">Éclairs chocolat &amp; café</h2>
+            <p class="creation__desc">Des éclairs au chocolat et au café, généreusement garnis de crème.</p>
+            <a class="link-arrow" href="contact.html?creation=%C3%89clairs%20chocolat%20%26%20caf%C3%A9">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="buffet-douceurs" data-category="douceurs">
+            <figure class="media media--portrait" data-tone="chocolat">
+              <img src="assets/images/instagram/insta-1.jpg" alt="Assortiment de verrines, tartelettes meringuées et petits gâteaux au chocolat" width="800" height="800" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Douceurs</span></p>
+            <h2 class="creation__title">Buffet de douceurs</h2>
+            <p class="creation__desc">Un assortiment de verrines, de tartelettes meringuées et de petits gâteaux au chocolat.</p>
+            <a class="link-arrow" href="contact.html?creation=Buffet%20de%20douceurs">Commander cette création</a>
+          </article>
+
+          <article class="creation reveal" id="pieces-montees-macarons" data-category="douceurs" style="--d:1">
+            <figure class="media media--portrait" data-tone="pistache">
+              <img src="assets/images/instagram/insta-8.jpg" alt="Deux pièces montées de macarons roses, pistache et vanille" width="800" height="800" loading="lazy">
+            </figure>
+            <p class="creation__meta"><span>Douceurs</span></p>
+            <h2 class="creation__title">Pièces montées de macarons</h2>
+            <p class="creation__desc">Deux pièces montées de macarons roses, pistache et vanille.</p>
+            <a class="link-arrow" href="contact.html?creation=Pi%C3%A8ces%20mont%C3%A9es%20de%20macarons">Commander cette création</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUR MESURE ============ -->
+    <section class="section section--tint" aria-labelledby="bespoke-title">
+      <div class="container bespoke">
+        <div class="reveal" style="--d:1">
+          <h2 class="section-title" id="bespoke-title">Vous avez une idée <em>bien précise&nbsp;?</em></h2>
+          <p class="lead">Un thème, une couleur, un parfum d'enfance ou une contrainte alimentaire&nbsp;: je compose avec vous une création unique. Dites-moi tout, nous construirons le gâteau ensemble.</p>
+          <ul class="bespoke__list">
+            <li>Gâteaux d'anniversaire à thème, pour petits et grands</li>
+            <li>Wedding cakes, pièces montées et buffets de desserts</li>
+            <li>Desserts pour séminaires et événements d'entreprise</li>
+            <li>Adaptations selon vos contraintes alimentaires, à étudier ensemble</li>
+          </ul>
+          <a class="btn" href="contact.html?type=sur-mesure">Me parler de votre projet</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ALLERGÈNES ============ -->
+    <section class="section section--tight" aria-labelledby="allergens-title">
+      <div class="container">
+        <!-- À ADAPTER : listez les allergènes réellement présents dans votre laboratoire -->
+        <div class="note">
+          <h2 class="note__title" id="allergens-title">Informations allergènes</h2>
+          <p>Mes pâtisseries sont préparées dans un laboratoire où sont utilisés notamment du gluten, des œufs, du lait, des fruits à coque (amande, noisette, pistache) et du soja. Malgré tout le soin apporté, la présence de traces ne peut être exclue. La liste détaillée des allergènes de chaque création vous est communiquée avec le devis et reste disponible sur simple demande.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="brand brand--footer" href="index.html" data-brand>
+            <!-- LOGO bordeaux (pied de page rose) : assets/images/logo/logo-footer.png -->
+            <img class="brand__logo" src="assets/images/logo/logo-footer.png" alt="Ju&amp;Jum's — accueil" width="471" height="292">
+            <span class="brand__wordmark">Ju&amp;Jum's</span>
+            <span class="brand__tagline">Pâtisserie artisanale</span>
+          </a>
+          <p class="site-footer__pitch">Entremets, tartes et gâteaux de fête faits main, sur commande, au rythme des saisons.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Contact</h2>
+          <address>
+            Betchat (09)<br>
+            <a href="tel:+33000000000"><span class="todo">[TÉLÉPHONE]</span></a><br>
+            <a href="mailto:juandjums@gmail.com">juandjums@gmail.com</a>
+          </address>
+        </div>
+        <div>
+          <h2 class="footer-title">Retraits</h2>
+          <p>Sur rendez-vous<br>Du mercredi au samedi<br><span class="todo">[HORAIRES]</span></p>
+          <!-- Réseaux sociaux : icônes Instagram et Facebook -->
+          <ul class="social">
+            <li><a class="social__link" href="https://www.instagram.com/juandjums.patisserie/" target="_blank" rel="noopener" aria-label="Instagram de Ju&amp;Jum's (nouvel onglet)"><svg class="social__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg></a></li>
+            <!-- FACEBOOK : remplacez # par l'adresse de la page Facebook -->
+            <li><a class="social__link" href="#" aria-label="Facebook de Ju&amp;Jum's"><svg class="social__icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.1" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12.9 21v-6.6h2.3l.35-2.7H12.9v-1.7c0-.8.22-1.3 1.35-1.3h1.4V6.3c-.25-.03-1.1-.1-2.05-.1-2.03 0-3.4 1.23-3.4 3.5v2h-2.3v2.7h2.3V21z" fill="currentColor"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© Ju&amp;Jum's</p>
+        <ul class="legal-links">
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+          <li><a href="cgv.html">CGV</a></li>
+          <li hidden data-cookie-manage><button type="button" class="link-button">Gérer les cookies</button></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
